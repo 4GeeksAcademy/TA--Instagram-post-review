@@ -1,0 +1,40 @@
+body{
+    background: black;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+}
+.post{
+    background: white;
+    width: 500px;
+    margin: auto;
+}
+.header{
+    padding: 0px 15px 0px 15px;
+}
+.left-header{
+    display: flex;
+    align-items: center;
+}
+.header, .icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-icons{
+    padding: 10px;
+}
+.right-icons{
+    padding: 15px;
+}
+i{
+    padding: 5px;
+    font-size: 40px;
+}
+.image{
+    width: 100%;
+}
+.caption{
+    padding: 10px;
+    padding-top: 0px;
+}
